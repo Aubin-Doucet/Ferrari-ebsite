@@ -1,0 +1,41 @@
+
+.banner {
+    background-image: url(../../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+}
+
+.banner .container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin: 0;
+    color: red;
+}
+
+.banner h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin: 10px 0 20px;
+}
+
+.btn-blue {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: #0056b3;
+}
